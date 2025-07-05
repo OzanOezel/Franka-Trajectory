@@ -1,6 +1,6 @@
 #  Heart-Shaped Trajectory with Franka Robot
 
-This project demonstrates how to execute a **pre-defined heart-shaped trajectory** created in MATLAB, using the **Franka Emika Panda** robot with **MoveIt** framework in the **Gazebo simulation environment**. The trajectory is recorded using rosbags and analyzed using MATLAB.
+This project demonstrates how to execute a **pre-defined heart-shaped trajectory** created in MATLAB, using the **Franka Emika Panda** robot with **MoveIt** framework in the **Gazebo** simulation environment. The trajectory is recorded using rosbags and analyzed using MATLAB.
 
 ---
 

@@ -29,11 +29,11 @@ This project demonstrates how to execute a **pre-defined heart-shaped trajectory
 ### Clone and Build the Package
 In a terminal window:
 ```bash
-cd ~/ws_moveit/src
-git clone https://github.com/OzanOezel/Franka-Trajectory/tree/main/ir_project  # Clone the ir_project package
-cd ~/ws_moveit
-source ~/ws_moveit/devel/setup.bash
-catkin build ir_project
+$ cd ~/ws_moveit/src
+$ git clone https://github.com/OzanOezel/Franka-Trajectory/tree/main/ir_project  # Clone the ir_project package
+$ cd ~/ws_moveit
+$ source ~/ws_moveit/devel/setup.bash
+$ catkin build ir_project
 ```
 
 
@@ -41,7 +41,7 @@ catkin build ir_project
 ### Launch Simulation (Gazebo + RViz)
 
 ```bash
-roslaunch panda_moveit_config demo_gazebo.launch
+$ roslaunch panda_moveit_config demo_gazebo.launch
 ```
 
 This will launch both **Gazebo** and **RViz** with the Franka Panda robot.

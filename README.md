@@ -5,7 +5,8 @@ This project demonstrates how to execute a **pre-defined heart-shaped trajectory
 
 ## Folder Structure
 
-- **`ir_project/`**  
+- **`ir_project/`**
+  
   Ros package that contains the ROS node to execute the generated trajectory.
 
 - **`Data Creation & Analysis/`**

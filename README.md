@@ -18,8 +18,8 @@ This project demonstrates how to execute a **pre-defined heart-shaped trajectory
 
 ## Prerequisites
 
-- [ROS Noetic]
-- [MoveIt configured for Franka Emika Panda]
+- ROS Noetic
+- MoveIt configured for Franka Emika Panda
 - Gazebo simulator
 - MATLAB
 

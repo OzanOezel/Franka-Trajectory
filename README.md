@@ -76,5 +76,5 @@ This records the transformation frames and joint states during trajectory execut
 
 ## MATLAB Analysis
 
-The MATLAB code can be executed independently. ROS is not needed since the `.bag` file is available inside.
+The MATLAB code can be executed independently. ROS is not needed since the `.bag` file is already available inside.
 

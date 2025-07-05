@@ -27,7 +27,7 @@ This project demonstrates how to execute a **pre-defined heart-shaped trajectory
 ## How to Execute the Code
 
 ### Clone and Build the Package
-
+In a terminal window:
 ```bash
 cd ~/ws_moveit/src
 git clone https://github.com/OzanOezel/Franka-Trajectory/tree/main/ir_project  # Clone the ir_project package
@@ -50,7 +50,7 @@ This will launch both **Gazebo** and **RViz** with the Franka Panda robot.
 
 ### Run the Trajectory Controller
 
-In a second terminal:
+In a second terminal window:
 
 ```bash
 cd ~/ws_moveit
@@ -64,7 +64,7 @@ This will execute the heart-shaped trajectory.
 
 ### Step 4: Record Rosbag Data
 
-In a third terminal:
+In a third terminal window:
 
 ```bash
 rosbag record -o heart_trajectory_data.bag /tf /tf_static /joint_states

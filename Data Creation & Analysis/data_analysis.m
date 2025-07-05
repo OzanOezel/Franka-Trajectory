@@ -19,7 +19,7 @@ figure('Name','');
 hold on;
 plot3(heart(:,1), heart(:,2), heart(:,3), 'r-');
 plot3(EE_trajectory(:,1), EE_trajectory(:,2), EE_trajectory(:,3), 'k-')
-title('Smoothed, Executable Heart Path');
+title('Trajectory Comparison');
 xlabel('X (m)');
 ylabel('Y (m)');
 zlabel('Z (m)');

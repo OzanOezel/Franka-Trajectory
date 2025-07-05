@@ -9,6 +9,7 @@ This project demonstrates how to execute a **pre-defined heart-shaped trajectory
   Ros package that contains the ROS node to execute the generated trajectory.
 
 - **`Data Creation & Analysis/`**
+  
   MATLAB scripts for creating, reading and analyzing the data
   - `.bag` file with the executed trajectory data  
   - `.csv` files for the data of the designed trajectory and the robot positions and orientations after execution 

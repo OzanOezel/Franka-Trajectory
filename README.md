@@ -8,12 +8,13 @@ This project demonstrates how to execute a **pre-defined heart-shaped trajectory
 - **`Data Creation & Analysis/`**
 
    - MATLAB scripts for creating, reading and analyzing the data
-  - `.bag` file with the executed trajectory data  
-  - `.csv` files for the data of the designed trajectory and the robot positions and orientations after execution 
+   - `.bag` file with the executed trajectory data  
+   - `.csv` files for the data of the designed trajectory and the robot positions and orientations after execution 
 
 - **`ir_project/`**
 
-  Ros package that contains the ROS node to execute the generated trajectory.
+   - Ros package that contains the ROS node to execute the generated trajectory.
+   - `.csv` file of the generated heart-shape data.
 
 
 ## Prerequisites
@@ -53,9 +54,9 @@ This will launch both **Gazebo** and **RViz** with the Franka Panda robot.
 In a second terminal window:
 
 ```bash
-cd ~/ws_moveit
-source ~/ws_moveit/devel/setup.bash
-rosrun ir_project trajectory_controller
+$ cd ~/ws_moveit
+$ source ~/ws_moveit/devel/setup.bash
+$ rosrun ir_project trajectory_controller
 ```
 
 This will execute the heart-shaped trajectory.
@@ -67,11 +68,10 @@ This will execute the heart-shaped trajectory.
 In a third terminal window:
 
 ```bash
-rosbag record -o heart_trajectory_data.bag /tf /tf_static /joint_states
+$ rosbag record -o heart_trajectory_data.bag /tf /tf_static /joint_states
 ```
 
 This records the transformation frames and joint states during trajectory execution.
-
 
 
 ## MATLAB Analysis

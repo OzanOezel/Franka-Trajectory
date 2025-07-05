@@ -6,11 +6,12 @@ This project demonstrates how to execute a **pre-defined heart-shaped trajectory
 ## Folder Structure
 
 - **`ir_project/`**  
-  Contains the trajectory generation code and ROS node to execute it.
+  Ros package that contains the ROS node to execute the generated trajectory.
 
-- **`Data Creation & Analysis/`**  
+- **`Data Creation & Analysis/`**
+  MATLAB scripts for creating, reading and analyzing the data
   - `.bag` file with the executed trajectory data  
-  - `.csv` files for joint states and poses  
+  - `.csv` files for the data of the designed trajectory and the robot positions and orientations after execution 
   - MATLAB scripts for reading, plotting, and analyzing data
 
 
@@ -74,11 +75,5 @@ This records the transformation frames and joint states during trajectory execut
 
 ## MATLAB Analysis
 
-The `Data Creation & Analysis/` folder contains:
-
-- The recorded `.bag` file
-- `.csv` files for positions and orientations and the designed trajectory
-- MATLAB scripts for creating, reading and analyzing the data
-
-**Note:** The MATLAB code can be executed independently. ROS is not needed since the `.bag` file is available inside.
+The MATLAB code can be executed independently. ROS is not needed since the `.bag` file is available inside.
 

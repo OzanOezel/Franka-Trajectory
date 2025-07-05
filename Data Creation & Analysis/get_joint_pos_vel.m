@@ -26,4 +26,7 @@ for i = 1:n
 end
 
 
-
+filename = 'joint_pos.csv'; 
+writematrix(positions, filename);
+filename = 'joint_vel.csv'; 
+writematrix(velocities, filename);

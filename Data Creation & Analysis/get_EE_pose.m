@@ -33,3 +33,6 @@ end
 
 filename = 'EE_trajectory.csv'; 
 writematrix(positions(4:1043,:), filename);
+
+filename = 'EE_orient.csv'; 
+writematrix(orientations(4:1043,:), filename);

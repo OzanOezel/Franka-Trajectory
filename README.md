@@ -2,7 +2,6 @@
 
 This project demonstrates how to execute a **pre-defined heart-shaped trajectory** created in MATLAB, using the **Franka Emika Panda** robot with **MoveIt** framework in the **Gazebo** simulation environment. The trajectory is recorded using rosbags and analyzed using MATLAB.
 
----
 
 ## Folder Structure
 
@@ -14,7 +13,6 @@ This project demonstrates how to execute a **pre-defined heart-shaped trajectory
   - `.csv` files for joint states and poses  
   - MATLAB scripts for reading, plotting, and analyzing data
 
----
 
 ## Prerequisites
 
@@ -23,7 +21,6 @@ This project demonstrates how to execute a **pre-defined heart-shaped trajectory
 - Gazebo simulator
 - MATLAB
 
----
 
 ## How to Execute the Code
 
@@ -37,7 +34,7 @@ source ~/ws_moveit/devel/setup.bash
 catkin build ir_project
 ```
 
----
+
 
 ### Launch Simulation (Gazebo + RViz)
 
@@ -47,7 +44,7 @@ roslaunch panda_moveit_config demo_gazebo.launch
 
 This will launch both **Gazebo** and **RViz** with the Franka Panda robot.
 
----
+
 
 ### Run the Trajectory Controller
 
@@ -61,7 +58,7 @@ rosrun ir_project trajectory_controller
 
 This will execute the heart-shaped trajectory.
 
----
+
 
 ### Step 4: Record Rosbag Data
 
@@ -73,7 +70,7 @@ rosbag record -o heart_trajectory_data.bag /tf /tf_static /joint_states
 
 This records the transformation frames and joint states during trajectory execution.
 
----
+
 
 ## MATLAB Analysis
 
